@@ -1,4 +1,4 @@
-# Zio-Qwiic-Soil-Moisture-Sensor
+# Zio Qwiic Soil Moisture Sensor
 
 
 ![](soil-moisture.png)
