@@ -3,7 +3,7 @@
 
 ![](soil-moisture.png)
 
-> This product can be available for purchase [here](https://www.smart-prototyping.com/Zio-Qwiic-Loudness-Sensor-I2C).
+> This product can be available for purchase [here](https://www.smart-prototyping.com/Zio-Qwiic-Soil-Moisture-Sensor).
 
 
 
