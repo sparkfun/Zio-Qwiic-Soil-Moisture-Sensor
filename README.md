@@ -1,23 +1,13 @@
-# Zio Qwiic Soil Moisture Sensor
+SparkFun Qwiic Soil Moisture Sensor
+========================================
 
+![SparkFun Qwiic Soil Moisture Sensor](https://cdn.sparkfun.com/assets/parts/1/6/8/4/8/17731-SparkFun_Qwiic_Soil_Moisture_Sensor-01.jpg)
 
-![](soil-moisture.png)
+[*SparkFun Qwiic Soil Moisture Sensor (17731)*](https://www.sparkfun.com/products/17731)
 
-> This product can be available for purchase [here](https://www.smart-prototyping.com/Zio-Qwiic-Soil-Moisture-Sensor).
+The SparkFun Qwiic Soil Moisture Sensor is a simple breakout for measuring the moisture in soil and similar materials. The soil moisture sensor is pretty straightforward to use. The two large, exposed pads function as probes for the sensor, together acting as a variable resistor. The more water that is in the soil means the better the conductivity between the pads will be, resulting in a lower resistance and a higher SIG out. This version of the Soil Moisture Sensor includes a Qwiic connector, making it even easier to use this sensor!
 
-
-
-#### Description
-
-This is a one of its kind Qwiic (I2C) version Soil moisture sensor that helps you build an auto-watering system in a quick and easy way. 
-
-
-Put the sensor’s exposed pads (probes) into the soil, and it will tell you the plant’s moisture rate from 0 to 1023 (0 means completely moist, 1023 means completely dry). You just need to decide at which rate to water, and how much water you want to give the plant. We have provided a demo code here for your reference.
-
-
-*About the I2C:*
-
-The module incorporates an ATtiny85 MCU as the I2C gateway, which does all the nitty gritty stuff for you. The default I2C address is 0x28, which you can also change depending on your requirements. You can check out the datasheet [here](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf)
+To get the SparkFun Soil Moisture Sensor functioning, all you will need is to connect the VCC and GND pins to your Arduino-based device (or compatible development board). You will receive a SIG out, which will depend on the amount of water in the soil. One commonly known issue with soil moisture senors is their short lifespan when exposed to a moist environment. To combat this, we’ve had the PCB coated in gold finishing (ENIG, or Electroless Nickel Immersion Gold).
 
 
 #### Specification
@@ -29,16 +19,23 @@ The module incorporates an ATtiny85 MCU as the I2C gateway, which does all the n
 * Module dimension: 20.3x 100.0mm
 
 
-#### Links
-
-* [PCB Source File and Schematic](https://github.com/ZIOCC/Zio-Qwiic-Soil-Moisture-Sensor)
-* [Demo Code](https://github.com/ZIOCC/Zio-Qwiic-Soil-Moisture-Sensor/tree/master/Firmware/Qwiic%20Soil%20Moisture%20Sensor%20Examples)
+Documentation
+--------------
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/soil-moisture-sensor-hookup-guide)** - Basic hookup guide for the SparkFun Qwiic Soil Moisture Sensor.
 * [ATtiny85 Gateway Firmware](https://github.com/ZIOCC/Zio-Qwiic-Soil-Moisture-Sensor/tree/master/Firmware/Qwiic_Soil_Moisture_Sensor_Gateway_Firmware/Qwiic_Soil_Moisture_Firmware)
-* [Quick Start Tutorial](https://www.smart-prototyping.com/blog/Zio-Soil-Moisture-Sensor-Qwiic-Start-Guide)
 
 
+License Information
+-------------------
 
+This product is _**open source**_! 
 
+Please review the LICENSE.md file for license information. 
 
-###### About Zio
-> Zio is a new line of open sourced, compact, and grid layout boards, fully integrated for Arduino and Qwiic ecosystem. Designed ideally for wearables, robotics, small-space limitations or other on the go projects. Check out other awesome Zio products [here](https://www.smart-prototyping.com/Zio).
+If you have any questions or concerns on licensing, please contact technical support on our [SparkFun forums](https://forum.sparkfun.com/viewforum.php?f=152).
+
+Distributed as-is; no warranty is given.
+
+- Your friends at SparkFun.
+
+_<COLLABORATION CREDIT>_
