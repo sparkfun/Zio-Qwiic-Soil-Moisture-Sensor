@@ -9,6 +9,8 @@ The SparkFun Qwiic Soil Moisture Sensor is a simple breakout for measuring the m
 
 To get the SparkFun Soil Moisture Sensor functioning, all you will need is to connect the VCC and GND pins to your Arduino-based device (or compatible development board). You will receive a SIG out, which will depend on the amount of water in the soil. One commonly known issue with soil moisture senors is their short lifespan when exposed to a moist environment. To combat this, we’ve had the PCB coated in gold finishing (ENIG, or Electroless Nickel Immersion Gold).
 
+Built in cooperation with [Zio Smart Prototyping](https://www.smart-prototyping.com/Zio/Zio-Qwiic-Soil-Moisture-Sensor)! 
+
 
 #### Specification
 
